@@ -1,0 +1,18 @@
+<div class="container pt-4">
+    <h2 class="mb-4">Add Employee</h2>
+    <form  [formGroup]="employeeForm">
+      <div class="form-group">
+        <label for="name">First Name:</label>
+        <input type="text" class="form-control" id="FName" formControlName="FirstName" name="FName" required>
+      </div>
+      <div class="form-group">
+        <label for="position">Last Name:</label>
+        <input type="text" class="form-control" id="LName"  formControlName="LastName"  name="LName" required>
+      </div>
+      <div class="form-group">
+        <label for="department">Email:</label>
+        <input type="text" class="form-control" id="Email" formControlName="Email"  name="Email" required>
+      </div>
+      <button type="submit" class="btn btn-primary" (click)="onSubmit()">Add Employee</button>
+    </form>
+  </div>

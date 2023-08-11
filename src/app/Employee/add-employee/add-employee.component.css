@@ -1,0 +1,12 @@
+body {
+    background-color: #fbfbfb;
+    }
+    /* @media (min-width: auto) {
+    main {
+    padding-left: 240px;
+    }
+    } */
+    .container {
+        /* max-width: 1140px; */
+        max-width :fit-content
+    }
